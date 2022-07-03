@@ -2,3 +2,26 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    gap: 80px;
+    background-color: #aaaaaa;
+}
+
+.block {
+    display: block;
+}
+
+section {
+    margin: 15px;
+
+    & button, mat-form-field {
+        margin: 10px;
+    }
+}
